@@ -19,6 +19,10 @@ strong {
   color: var(--global-text-color);
 }
 
+h1 {
+  font-size: 3rem; // 你可以根据需要调整这个值
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -158,6 +162,17 @@ ul.task-list input[type="checkbox"] {
 
 .card {
   background-color: var(--global-card-bg-color);
+  box-shadow: 0px 27px 83px 0px rgba(36, 36, 37, 0.03),
+              0px 8.14px 25.022px 0px rgba(36, 36, 37, 0.02),
+              0px 3.381px 10.393px 0px rgba(36, 36, 37, 0.01),
+              0px 1.223px 3.759px 0px rgba(36, 36, 37, 0.01); 
+  
+  &:hover {
+    box-shadow: 0px 27px 83px 0px rgba(36, 36, 37, 0.1),
+                0px 8.14px 25.022px 0px rgba(36, 36, 37, 0.05),
+                0px 3.381px 10.393px 0px rgba(36, 36, 37, 0.01),
+                0px 1.223px 3.759px 0px rgba(36, 36, 37, 0.01); 
+  }
 
   .card-img {
     width: 100%;

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 1
+title: project 1 讓我們來看看交互作品哈哈哈
 description: with background image
 img: assets/img/12.jpg
 importance: 1
